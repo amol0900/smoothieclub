@@ -1,0 +1,340 @@
+html, body {
+    margin: 0;
+	padding: 0;
+    font-family: arial;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(Gilroy-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: DK-Formosa;
+    src: url(DK-Formosa.otf);
+}
+
+#wrapper1 {
+    background-image: url("main4.jpg");
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+    height: 704px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+header {
+    width: 70%;
+    height: 103px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+    margin-left: 5px;
+  }
+
+.a {
+   font-family: "HelveticaNeue-Light";
+   font-size: 14px;
+   color: rgb(87, 87, 87);
+   text-decoration: none;
+   cursor: pointer; 
+}
+
+input#searchbar {
+    width:90%;
+    padding: 5px 15px;
+    background-color: transparent;
+    border: 1px solid#9b9b9b;
+	border-radius: 15px;
+	font-size: 12px;
+	color:  #2C2C2C;
+    outline: none;
+}
+
+.wrap2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+#first {
+    width: 69%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 120%;
+    padding-right: 0px;
+    
+}
+
+h1 {
+    font-family:Gilroy;
+    font-size: 5.5em;
+    line-height: 1em;
+    margin-bottom: -35px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+.first{
+    font-family: DK-Formosa;
+    font-size: 3.2em;
+    line-height: 1.4em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: #c4edac;
+    padding: 25px;
+    height: 648px;
+}
+
+#about {
+   display: flex;
+   width: 100%;
+   background:rgba(255,255,255, 0.5);
+   padding-left: 80px;
+   align-items: flex-start;
+   flex-direction: column;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+#about p {
+    font-family: "HelveticaNeue-Light";
+    line-height: 1.6em;
+    width: 700px;
+    font-size: 1.2em;
+}
+
+.green {
+    width: 436px;
+    height: 436px;
+}
+
+h2 {
+    font-family: Gilroy;
+    font-size: 3.5em;
+    margin: 0;
+}
+
+#wrapper2 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color:#e2cdc6;
+    padding: 25px;
+    height: 648px;
+}
+
+#join {
+   display: flex;
+   width: 100%;
+   background-color:white;
+   background:rgba(255,255,255, 0.5);
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+form#enter {
+    display: flex;
+    width:700px;
+    flex-direction:column;
+    flex-wrap: wrap;
+    height:auto;
+    margin-top:40px;
+    align-items:center;
+    margin-right:0px;
+} 
+
+input {
+    background:transparent;
+    padding: 10px 15px;
+    font-family: "HelveticaNeue-Light";
+    font-size: 1.2em;
+    width:70%;
+    box-sizing: border-box;
+    border: 1px solid#9b9b9b;
+	border-radius: 1px;
+    outline: none !important;
+    margin-top:5px;
+    margin-bottom:-5px;
+}
+
+input.valid {
+    border-color:#36cc36;
+}
+
+input.invalid {
+    border-color:orange;
+}
+
+input + p{
+    font-family: arial;
+    color: orange;
+    font-size: 0.9em;
+    opacity: 0;
+    height: 0;
+    align-self:center;
+    
+}
+
+input.invalid + p{
+    opacity: 1;
+    height: 0;
+    margin:20px;
+}
+
+label {
+    display:none;
+}
+
+.pink {
+    width: 436px;
+    height: 436px;
+}
+
+#sendbutton {
+    width:20%;
+    background:#c4edac;
+    font-family: "HelveticaNeue-Light";
+    font-size: 1.2em;
+    padding: 10px 15px;
+    border: 1px solid#9b9b9b;
+	border-radius: 1px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#sendbutton:hover {
+    background-color: #8fbf73;
+}
+
+#confwrap {
+    background-image: url("main4.jpg");
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+    height: 704px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.cwrap {
+    width: 55%;
+    display: flex;
+    /* align-items: flex-start; */
+    /* justify-content: center; */
+    margin: 0;
+}
+
+.yay{
+    font-family: DK-Formosa;
+    font-size: 6.2em;
+    line-height: 1em;
+    color:green;
+    margin: 0;
+}
+
+h3 {
+    font-family: Gilroy;
+    font-size: 3.5em;
+    text-align: center;
+  
+}
+
+.content {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-right: 0px;
+}
+
+/* Media queries */
+
+@media (max-width: 640px){
+main {height:auto;}
+#wrapper1 {background:none; margin:0;}
+.green {width:500px; height:auto;}
+#about {padding-top:10px;}
+#about p {width:50%;}
+#wrapper2 {height:auto;}
+.pink {width:226px; height:auto;}
+form#enter {width:400px;}
+h1 {font-size:4em;}
+h2 {margin-top:50px; text-align:center;}
+h3 {font-size:2.5em;}
+#confwrap {background:none; justify-content:center;}
+
+}
+
+@media (max-width: 768px){
+main {height:auto;}
+#wrapper1 {background:none;}
+.green {width:226px; height:auto;}
+#about p {width:60%;}
+#wrapper2 {height:auto;}
+.pink {width:226px; height:auto;}
+form#enter {width:400px;}
+h1 {font-size:4em;}
+h2 {margin-top:50px; text-align:center;}
+h3 {font-size:2.5em;}
+#confwrap {background:none; justify-content:center;}
+
+}
+ 
+@media (max-width: 1024px){
+main {height:auto;}
+#wrapper1 {background:none;}
+.green {width:326px; height:auto; margin-bottom:50px;}
+#about {padding-left: 0px; align-items:center;}
+#wrapper2 {height:auto;}
+.pink {width:326px; height:auto;}
+form#enter {width:400px;}
+h1 {font-size:4em;}
+h2 {margin-top:50px; text-align:center;}
+h3 {font-size:2.5em;}
+#confwrap {background:none; justify-content:center;}
+
+}
+ 
+@media (max-width: 1200px){
+main {height:auto;}
+.green {width:326px; height:auto;}
+#about p {width:80%;}
+#wrapper2 {height:auto;}
+.pink {width:326px; height:auto;}
+form#enter {width:400px;}
+h1 {font-size:4em;}
+h2 {margin-top:50px; text-align:center;}
+h3 {font-size:2.5em;}
+#confwrap {background:none; justify-content:center;}
+
+}
